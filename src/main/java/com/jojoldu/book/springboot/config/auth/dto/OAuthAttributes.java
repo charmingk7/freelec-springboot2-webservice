@@ -74,5 +74,6 @@ public class OAuthAttributes {
                 .picture(picture)
                 .role(Role.USER)
                 .build();
+
     }
 }
