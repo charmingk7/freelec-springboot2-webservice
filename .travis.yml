@@ -22,7 +22,6 @@ before_deploy: :
   - mkdir -p deploy
   - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-weservice.zip
 
-
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
